@@ -1,0 +1,53 @@
+# Build outputs
+bin/
+obj/
+
+# IDE específico (JetBrains Rider)
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependências
+packages/
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos de configuração local
+appsettings.local.json
+appsettings.Development.json
+*.env
+
+# Arquivos de compilação
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Arquivos de teste
+TestResults/
+*.trx
+*.coverage
