@@ -10,6 +10,7 @@ namespace Primeiro_proj {
 
             double a;
             float b;
+            
             b = (float)a;
 
             //double x = 10.35784;
