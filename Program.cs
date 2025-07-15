@@ -10,6 +10,8 @@ namespace Primeiro_proj {
             double z;
             char w;            
 
+            
+            
             x = Console.ReadLine();
             y = int.Parse(Console.ReadLine());
             z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
