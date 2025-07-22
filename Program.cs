@@ -12,15 +12,15 @@ namespace Primeiro_proj {
 
             
             
-            x = Console.ReadLine();
-            y = int.Parse(Console.ReadLine());
-            z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            w = char.Parse(Console.ReadLine());
+            //x = Console.ReadLine();
+            //y = int.Parse(Console.ReadLine());
+            //z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //w = char.Parse(Console.ReadLine());
 
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            Console.WriteLine(z);
-            Console.WriteLine(w);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
+            //Console.WriteLine(w);
 
             Console.ReadLine();
             //int n1 = 3 + 4 * 2;
