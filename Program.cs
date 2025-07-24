@@ -11,7 +11,7 @@ namespace Primeiro_proj {
             char w;
                 
             x = Console.ReadLine(); //ler em forma de string
-            y = int.Parse(Console.ReadLine());
+            y = int.Parse(Console.ReadLine()); //parse muda para conseguir o o numero
             z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             w = char.Parse(Console.ReadLine());
 
