@@ -5,6 +5,7 @@ namespace Primeiro_proj {
     class Program {
         static void Main(string[] args)
         {
+            Teste.Teste_exer(args);
             //string x;
             //int y;
             //double z;
