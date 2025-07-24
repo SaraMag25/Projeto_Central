@@ -5,20 +5,25 @@ namespace Primeiro_proj {
     class Program {
         static void Main(string[] args)
         {
-            string x;
-            int y;
-            double z;
-            char w;
-                
-            x = Console.ReadLine(); //ler em forma de string
-            y = int.Parse(Console.ReadLine()); //parse muda para conseguir o o numero
-            z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            w = char.Parse(Console.ReadLine());
-
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            Console.WriteLine(z);
-            Console.WriteLine(w);
+            //string x;
+            //int y;
+            //double z;
+            //char w;
+            //char sexo;
+            string[] vet = Console.ReadLine().Split(' ');
+            //x = Console.ReadLine(); //ler em forma de string
+            //y = int.Parse(Console.ReadLine()); //parse muda para conseguir o o numero
+            //z = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); // ler um numero double com ponto e noa virgula
+            string nome = vet[0];
+            char sexo = char.Parse(vet[1]);
+            int idade = int.Parse(vet[2]);
+            double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
+          
+            Console.WriteLine("voce digitou");
+            Console.WriteLine(nome);
+            Console.WriteLine(sexo);
+            Console.WriteLine(idade);
+            Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
             Console.ReadLine();
             //int n1 = 3 + 4 * 2;
             //int n2 = (4 + 3) * 2;
